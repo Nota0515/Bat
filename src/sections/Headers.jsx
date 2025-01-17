@@ -4,7 +4,7 @@ import Button from "../Components/Button";
 const Headers = () => {
 
   return (
-    <div className="flex items-center justify-center">
+    <div className="flex items-center justify-center h-[100px]">
       <div className="flex fixed top-0 left-1/2 -translate-x-1/2 items-center justify-between mt-5 z-50 md:px-4 px-2 w-full lg:px-12">
         <div className="flex h-[48px] w-[128px] items-center justify-center">
           <div className="logo w-[50px] h-[50px] overflow-hidden">
