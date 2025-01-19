@@ -21,14 +21,15 @@ export default {
           3 : "#050405",
           4 : "#C5C5C3",
           5 : "#DEDEDE",
+          6  : "#1F260F",
+          7 : "#4E5927",
+          8 : "#7C8C42",
+          9 : "#B5BF65",
+          10 : "#EDF2C2"
         },
-        b:{
-          1  : "#1F260F",
-          2 : "#4E5927",
-          3 : "#7C8C42",
-          3 : "#B5BF65",
-          4 : "#EDF2C2"
-        }
+      },
+      fontFamily: {
+        doto: ["Doto", "sans-serif"],
       },
       zIndex: {
         1: "1",
@@ -38,7 +39,8 @@ export default {
         5: "5", 
       },
       dropShadow: {
-        "1" : "0 0 5px rgba(197, 197, 195, 0.1)",
+        "1" : "0 0 5px rgba(78, 89, 39, 1)",
+        "2" : "0 0 30px rgba(78, 89, 39, 1)",
       },
       borderWidth: {
         DEFAULT: "0.0625rem",
