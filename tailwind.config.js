@@ -64,6 +64,12 @@ export default {
         "15": "0.15",
       },
     },
+    screens:{
+      'xl': '1280px',
+      'lg': '1024px',
+      'md': '768px',
+      'sm': '640px',
+    }
   },
   plugins: [],
 }
