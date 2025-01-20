@@ -25,7 +25,7 @@ const Headers = () => {
         </div>
         <div className="relative hamburger-menu flex items-center justify-center h-[48px] w-[128px] rounded-full overflow-hidden">
           <div className="absolute animate-rotate button-animation-color h-[10rem] w-[10rem] bg-button rounded-full rotate-45"></div>
-          <Button className="text-white h-[46px] w-[126px] z-10 bg-btngradient font-doto font-black">Sign Up</Button>
+          <Button className="text-n-3 h-[46px] w-[126px] z-10 bg-btngradient2 font-ocr font-black">Sign Up</Button>
         </div>
       </div>
     </div>
