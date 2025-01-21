@@ -9,6 +9,10 @@
   --font-doto: "Doto", Doto:wght@100..900;
 }
 
+@font-face {
+  font-family: 'OCR-A';
+  src: url('/fonts/OCR-a___.ttf') format('truetype');
+}
 
 body {
   background-color: #080A04

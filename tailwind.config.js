@@ -25,11 +25,13 @@ export default {
           7 : "#4E5927",
           8 : "#7C8C42",
           9 : "#B5BF65",
-          10 : "#EDF2C2"
+          10 : "#EDF2C2",
+          11 : "#0F1206"
         },
       },
       fontFamily: {
         doto: ["Doto", "sans-serif"],
+        ocr: ["OCR-A", "sans-serif"]
       },
       zIndex: {
         1: "1",
@@ -40,7 +42,10 @@ export default {
       },
       dropShadow: {
         "1" : "0 0 5px rgba(78, 89, 39, 1)",
-        "2" : "0 0 30px rgba(78, 89, 39, 1)",
+        "2" : "0 0 30px rgba(78, 89, 39, 1)"
+      },
+      boxShadow: {
+        '3xl': '0 200px 196px 196px rgba(0, 0, 0, 1)',
       },
       borderWidth: {
         DEFAULT: "0.0625rem",
@@ -49,6 +54,8 @@ export default {
         "grayBack": "radial-gradient(ellipse at center, #101010 2%,#050405 100%);",
         "button": "conic-gradient(from 90deg at 50% 50%, #000000, #050505, #0a0a0a, #0e0e0e, #2d2d2c, #6c6b6a, #b3b2b0, #fffefb);",
         "btngradient": "linear-gradient(to right,#1F260F, #4E5927)",
+        "btngradient2": "linear-gradient(to right, #B5BF65 , #7C8C42)",
+        "gradtop": "linear-gradient(to top, #000000, transparent);"
       },
       transitionDuration: {
         "default": "200ms",
@@ -62,6 +69,15 @@ export default {
       opacity: {
         "default": "1",
         "15": "0.15",
+      },
+      animation: {
+        'fadeup': 'fadeInUp 1s ease-out forwards',
+      },
+      keyframes: {
+        fadeInUp: {
+          '0%': { opacity: '0', transform: 'translateY(20px)' },
+          '100%': { opacity: '1', transform: 'translateY(0)' },
+        },
       },
     },
     screens:{
