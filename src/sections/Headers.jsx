@@ -16,7 +16,7 @@ const Headers = () => {
         </div>
         <div className="flex items-center justify-center">
           <div className="nav-links-container hidden lg:flex items-center justify-center h-[3.125rem] px-1">
-            <div className="nav-links flex items-center justify-between rounded-full border backdrop-blur-xl border-n-4/20 drop-shadow-1 gap-10  px-10 h-full font-ocr font-black text-white">
+            <div className="nav-links flex items-center justify-between rounded-full border bg-n-1/20 backdrop-blur-xl border-n-4/20 drop-shadow-1 gap-10  px-10 h-full font-ocr font-black text-white">
               {navLinks.map((nav) => (
                 <a href={nav.link} key={nav.id} className="px-4">{nav.name}</a>
               ))}
