@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import Button from "../Components/Button"
+import Button from "../components/Button"
 import { FaShoppingBag } from "react-icons/fa";
 
 const Hero = () => {
@@ -25,7 +25,7 @@ const Hero = () => {
       <div className="shopnow-container flex justify-center items-center absolute w-full h-[9rem] bottom-0 left-1/2 -translate-x-1/2">
         <div className="shopnow-button flex  justify-center items-center bg-gradtop  w-full h-full">
           <div className="flex justify-center items-center h-full w-[30rem] ">
-            <Button className={`relative font-ocr shadow-3xl font-black h-14 bg-n-10 w-[8rem]" alt="shopnowbtn ${IsVisible ? 'animate-fadeup' : 'opacity-0'}`} onClick={handleShopNowClick}><span className="text-lg md:text-xl lg:text-xl text-black inline-flex items-center justify-center gap-x-1">ShopNow <FaShoppingBag /></span></Button>
+            <Button className={`relative font-ocr font-black h-14 bg-n-10 w-[8rem]" alt="shopnowbtn ${IsVisible ? 'animate-fadeup' : 'opacity-0'}`} onClick={handleShopNowClick}><span className="text-lg md:text-xl lg:text-xl text-black inline-flex items-center justify-center gap-x-1">ShopNow <FaShoppingBag /></span></Button>
           </div>
         </div>
       </div>
