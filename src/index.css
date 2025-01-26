@@ -18,6 +18,31 @@ body {
   background-color: #080A04
 }
 
+.snap-container {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+.hero-section,
+.projects-section {
+  scroll-snap-align: start; /* Snaps to the top of the section */
+  height: 100vh; /* Each section takes full viewport height */
+}
+
+.snap-container {
+  scroll-behavior: smooth;
+}
+
+/* Optional: Hide scrollbar */
+.snap-container {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+.snap-container::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, and Opera */
+}
+
 @layer utilities {
   @keyframes rotate {
     0% {
