@@ -18,9 +18,9 @@ const Hero = () => {
   } , []);
 
   return (
-    <div className="flex relative justify-center items-start">
-      <div className="flex justify-center items-center w-screen h-screen overflow-hidden">
-        <video className="w-[100%] h-[100%] object-cover " style={{ objectPosition: '50% 10%' }} src="src/assets/video/product.mp4" alt="brandvideo" autoPlay muted playsInline></video>
+    <div className="hero-section flex relative justify-center max-h-[100dvh]  items-start">
+      <div className="flex justify-center items-center w-full h-full overflow-hidden">
+        <video className="w-full h-full object-cover " style={{ objectPosition: '50% 10%' }} src="src/assets/video/product.mp4" alt="brandvideo" autoPlay muted playsInline></video>
       </div>
       <div className="shopnow-container flex justify-center items-center absolute w-full h-[9rem] bottom-0 left-1/2 -translate-x-1/2">
         <div className="shopnow-button flex  justify-center items-center bg-gradtop  w-full h-full">
