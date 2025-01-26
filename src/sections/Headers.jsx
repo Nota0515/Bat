@@ -5,7 +5,7 @@ const Headers = () => {
 
   return (
     <div className="flex items-center justify-center">
-      <div className="flex fixed top-0 left-1/2 -translate-x-1/2 items-center justify-between bg-n-1/30 backdrop-blur-3xl lg:backdrop-blur-none border-b-2 border-n-4/20 lg:border-none  h-16 md:h-20 lg:mt-5 z-50 md:px-4 px-2 w-full lg:px-12">
+      <div className="flex fixed top-0 left-1/2 -translate-x-1/2 items-center justify-between bg-n-1/30 lg:bg-transparent backdrop-blur-3xl lg:backdrop-blur-none border-b-2 border-n-4/20 lg:border-none  h-16 md:h-20 lg:mt-5 z-50 md:px-4 px-2 w-full lg:px-12">
         <div className="flex h-[48px] w-[128px] items-center justify-center">
           <div className="logo w-[50px] h-[50px] overflow-hidden">
             <img src="/src/assets/brandlogo.png" alt="logo" className="h-full w-auto" />
